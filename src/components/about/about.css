@@ -1,0 +1,37 @@
+.about__container {
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+}
+
+.about__data {
+    padding: 1.875rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    column-gap: 1.875rem;
+}
+
+.btn{
+    margin-top: 0.8rem;
+    font-size: 15px;
+}
+
+
+.about__boxes {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.5rem;
+    margin-top: 4.25rem;
+    justify-items: center;
+}
+
+.about__box {
+    display: flex;
+    column-gap: 1.5rem;
+}
+
+.about__icon {
+    font-size: var(--h1-font-size);
+    justify-content: center;
+    margin-left: 4rem;
+    
+}

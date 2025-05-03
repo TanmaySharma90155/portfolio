@@ -1,0 +1,51 @@
+.contact__section {
+    padding-bottom: 6.25rem;
+}
+
+.contact__container {
+    display: grid; /* Ensure grid display */
+    grid-template-columns: 1fr 2fr; /* Adjusted for better layout */
+    column-gap: 1.875rem;
+}
+
+.contact__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.5rem;
+}
+
+.contact__form-group {
+    display: grid;
+    grid-template-columns: 1fr; /* Stack inputs vertically */
+    row-gap: 1.2rem; /* Space between inputs */
+}
+
+.contact__form-div {
+    position: relative;
+    
+}
+
+.contact__form-input {
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;    
+    color: var(--text-color);
+    border: 1.5px solid #000000; /* Added border for better visibility */
+    border-radius: 15px; /* Slightly less rounded */
+    padding: 0.625rem 1.875rem;
+    font-size: 1rem; /* Ensure font size is readable */
+}
+
+.contact__form-input:focus {
+    border-color: var(--primary-color); /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.contact__box {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1rem;
+    column-gap: 25px
+    
+
+}
