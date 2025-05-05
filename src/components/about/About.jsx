@@ -15,7 +15,7 @@ const About = () => {
             <div className="about__data grid">
                 <div className="about__info">
                     <p className="about__description">Hello, My name is Tanmay Sharma. I develop machine learning models and data analytics projects. I have a good knowledge of Web Development and specialize in Front-End Development. I have leadership abilities which have helped me throughout my college life.</p>
-                    <a href = "https://drive.google.com/file/d/1-0Ik6hDs8HwfjK4oEf0CROrXkP0OG2hW/view?usp=drive_link" className="btn">Download Resume</a> 
+                    <a href = "https://drive.google.com/file/d/1i7M7xN3_qb42ZUDeTEGqKJXjXM9-H2_o/view?usp=sharing" className="btn">Download Resume</a> 
                 </div>
             </div>
         </div>
