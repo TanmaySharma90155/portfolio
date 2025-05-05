@@ -17,6 +17,11 @@ const Skills = () => {
                     <span className="skill__box">JavaScript</span>
                     <span className="skill__box">React JS</span>
                     <span className="skill__box">SQL</span>
+                    <span className="skill__box">Scikit-learn</span>
+                    <span className="skill__box">Seaborn</span>
+                    <span className="skill__box">Matplotlib</span>
+                    <span className="skill__box">Flask</span>
+                    <span className="skill__box">Joblib</span>
 
                 </div>
                     <h3 style = {{marginLeft: '10.1rem', marginTop: '1rem'}}>Developer Tools :</h3>
